@@ -1,5 +1,17 @@
 /**************** HEADER *****************/
+ header #logo{
+    min-width: 90px;
+    width: 100%;
+ }
 
+ header #logo-small{
+    min-width: 50px;
+    width: 100%;
+ }
+
+ #search-bar:focus{
+    background-color: var(--bg-color-light_gray);
+ }
 /**************** HEADER *****************/
 
 

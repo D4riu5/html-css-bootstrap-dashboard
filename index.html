@@ -16,8 +16,45 @@
 </head>
 <body>
 <!-- /**************** HEADER *****************/ -->
-    <header>
+    <header class="p-3">
+        <nav class="container-fuild">
+            <div class="row align-items-center">
+                <!-- big logo -->
+                <div class="d-none d-lg-block col-lg-1 me-3">
+                    <a href="#nogo">
+                        <img id="logo" class="img-fluid" src="img/logo.svg" alt="">
+                    </a>
+                </div>
+                <!-- small logo -->
+                <div class="d-block d-lg-none col-1 me-2">
+                    <a href="#nogo">
+                        <img id="logo-small" class="img-fluid" src="img/mobile-logo.png" alt="">
+                    </a>
+                </div>
 
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text border-0" id="basic-addon1"><i class="bi bi-search"></i></span>
+                        <input id="search-bar" type="search" class="form-control border-0 shadow-none my_bg-gray" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                
+                <div class="col-auto col-lg-1 d-flex justify-content-end justify-content-lg-between gx-1">
+                    <a class="nav-link d-none d-lg-block" href="#">
+                        <i class="bi bi-list-ul"></i>
+                    </a>
+                    <a class="nav-link d-none d-lg-block" href="#">
+                        <i style = "color:gray;" class="bi bi-question-circle-fill"></i>
+                    </a>
+                    <a class="nav-link d-none d-lg-block" href="#">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </a>
+                    <a class="nav-link justify-content-end" href="#">
+                        <i style = "color:orange;"  class="bi bi-bell-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
     </header>
 <!-- /**************** HEADER *****************/ -->
 
