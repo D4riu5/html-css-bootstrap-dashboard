@@ -1,12 +1,15 @@
 /***************** COLORS ***************** */
 :root{
     --bg-color-light_gray: #e9ecef;
+    --bg-color-aside_blue: #051E34;
 }
 
 
 .my_bg-gray{
     background-color: var(--bg-color-light_gray);
 }
+
+
 /***************** COLORS ***************** */
 
 
