@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <!-- small logo -->
-                <div class="d-block d-lg-none ps-1 col-auto me-2">
+                <div class="d-block d-lg-none ps-1 col-auto">
                     <a href="#nogo">
                         <img id="logo-small" src="img/mobile-logo.png" alt="">
                     </a>
@@ -70,7 +70,7 @@
                     <a class="nav-link mb-2 d-flex align-items-center" href="#">
                         <i class="fa-solid fa-chart-simple me-2"></i> <span class="d-none ms-1 d-lg-block">Stats</span>
                     </a>
-                    <a class="nav-link d-flex align-items-center" href="#">
+                    <a class="nav-link mb-2 d-flex align-items-center" href="#">
                         <i class="fa-solid fa-signal me-2"></i> <span class="d-none d-lg-block">Signals</span>
                     </a>
                 </div>
@@ -85,11 +85,48 @@
 
 
 <!-- /**************** APP CONTENT *****************/ -->
-        <section id="app-content" class="container-fluid">
-            ciap
+        <section id="app-content">
+            
             <!-- /**************** SECTION-TOP *****************/ -->
-            <section id="section-top">
-                
+            <section id="section-top" class="bg-primary text-white py-3">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4 col-lg-6 mb-2">
+                            <h3 class="d-inline-block">Boolean</h3>
+                            <span class="badge rounded-pill my_bg-primary-darker">Piano blaze</span> 
+                            <div>
+                                <span class="badge rounded-pill my_bg-primary-darker">3 app</span>
+                                <i class="bi bi-chevron-double-right"></i>
+                                <span class="badge rounded-pill my_bg-primary-darker d-none d-lg-inline-block">Boolean mobile app</span>
+                                <span class="badge rounded-pill my_bg-primary-darker d-none d-lg-inline-block">Boolean web app</span>
+                                <span class="badge rounded-pill my_bg-primary-darker d-none d-lg-inline-block">Boolean blog app</span>
+                                <span class="badge rounded-pill my_bg-primary-darker d-inline-block d-lg-none">+</span>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-5 col-lg-auto">
+                            <p>Studenti online negli ultimi 30 minuti</p>
+                            <h3 class="mb-0">125</h3>
+                        </div>
+
+                        <div class="col-sm-3 col-lg text-sm-end order-first order-sm-last mb-2">
+                            <span class="pe-2 d-inline-block">Nuovo studente</span>
+                            <button class="btn btn-primary border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                            <div class="offcanvas offcanvas-end my_larger-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                              <div class="offcanvas-header text-dark">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body text-dark text-start">
+                                ...
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
             <!-- /**************** SECTION-TOP *****************/ -->
 
@@ -103,6 +140,7 @@
 <!-- /**************** APP CONTENT *****************/ -->
     </main>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>

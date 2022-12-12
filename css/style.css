@@ -39,9 +39,12 @@ aside{
 #app-content{
     display: inline-block;
     overflow: auto;
+    width: 100%;
 }
 /**************** SECTION-TOP *****************/
-
+.my_larger-offcanvas{
+    width: 800px !important;
+}
 /**************** SECTION-TOP *****************/
 
 
