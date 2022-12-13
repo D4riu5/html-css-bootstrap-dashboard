@@ -54,9 +54,23 @@ tr td img{
     height: 30px;
 }
 
-.longer-cells{
-    min-width: 190px;
+/* TABLE SIZING */
+.long-cells{
+    width: 150px;
 }
+
+.longer-cells{
+    min-width: 170px;
+}
+
+.mid-cells{
+    width: 140px;
+}
+
+.smaller-cells{
+    width: 80px;
+}
+/* TABLE SIZING */
 /**************** SECTION-BOT *****************/
 /**************** APP CONTENT *****************/
 /**************** MAIN *****************/
