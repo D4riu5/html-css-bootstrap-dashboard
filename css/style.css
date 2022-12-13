@@ -25,7 +25,6 @@ main{
     height: calc(100vh - 70px);
     overflow: hidden;
 }
-
 /**************** ASIDE *****************/
 aside{
     display: inline-block;
@@ -34,6 +33,7 @@ aside{
     background-image: url(../img/sidebar-bg.png); 
 }
 /**************** ASIDE *****************/
+
 
 /**************** APP CONTENT *****************/
 #app-content{
@@ -49,6 +49,14 @@ aside{
 
 
 /**************** SECTION-BOT *****************/
+tr td img{
+    width: 30px;
+    height: 30px;
+}
+
+.longer-cells{
+    min-width: 190px;
+}
 
 /**************** SECTION-BOT *****************/
 /**************** APP CONTENT *****************/

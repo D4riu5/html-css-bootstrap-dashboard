@@ -3,6 +3,7 @@
     --bg-color-light_gray: #e9ecef;
     --bg-color-aside_blue: #051E34;
     --bg-color-my_primary-darker: #0f49a0;
+    --bg-color-my_progress: yellow;
 }
 
 
@@ -11,15 +12,11 @@
     background-color: var(--bg-color-light_gray);
 }
 
+.my_bg-progress{
+    background-color: var(--bg-color-my_progress);
+}
+
 .my_bg-primary-darker{
     background-color: var(--bg-color-my_primary-darker);
 }
 /***************** COLORS ***************** */
-
-
-
-/***************** TEXT ***************** */
-
-
-/***************** TEXT ***************** */
-
