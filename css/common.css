@@ -1,8 +1,10 @@
 /***************** COLORS ***************** */
 :root{
     --bg-color-light_gray: #e9ecef;
+    --bg-color-gray: rgb(156, 155, 155);
     --bg-color-aside_blue: #051E34;
     --bg-color-my_primary-darker: #0f49a0;
+    --bg-color-my_primary-darkest: #1e4278;
     --bg-color-my_progress: yellow;
 }
 
@@ -20,3 +22,14 @@
     background-color: var(--bg-color-my_primary-darker);
 }
 /***************** COLORS ***************** */
+
+
+/***************** HOVER ***************** */
+#section-top .badge:hover{
+    cursor: pointer;
+    background-color:  var(--bg-color-my_primary-darkest);
+}
+
+aside a:hover{
+    background-color: var(--bg-color-gray);
+}
