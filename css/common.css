@@ -33,3 +33,8 @@
 aside a:hover{
     background-color: var(--bg-color-gray);
 }
+
+#offcanvas-btn:hover{
+    background-color: white;
+    color: var(--bg-color-my_primary-darker);
+}
