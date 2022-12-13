@@ -124,76 +124,76 @@
                             <button id="offcanvas-btn" class="btn btn-primary border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                                 <i class="bi bi-plus-lg"></i>
                             </button>
+                            
                             <div class="offcanvas offcanvas-end my_larger-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                <!-- self closing div(?) -->
+
                                 <div class="offcanvas-header text-dark">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            </div>
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
 
-                            <!-- OFFCANVAS FORM -->
-                            <div class="offcanvas-body py-3 text-dark text-start">
-                                <form class="row g-3">
-                                    <div class="col-md-6">
-                                        <label for="inputname" class="form-label">Nome</label>
-                                        <input type="text" class="form-control" id="inputname">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="inputsurname" class="form-label">Cognome</label>
-                                        <input type="text" class="form-control" id="inputsurname">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="inputemail" class="form-label">Email</label>
-                                        <div class="input-group">
-                                            <span class="input-group-text">@</span>
-                                            <input type="email" class="form-control" id="inputemail">
+                                <!-- OFFCANVAS FORM -->
+                                <div class="offcanvas-body py-3 text-dark text-start">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="inputname" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="inputname">
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="inputpassword" class="form-label">Password</label>
-                                        <input type="password" class="form-control" id="inputpassword">
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="inputaddress" class="form-label">Indirizzo</label>
-                                        <input type="text" class="form-control" id="inputaddress">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="inputcity" class="form-label">Citta</label>
-                                        <input type="text" class="form-control" id="inputcity">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label for="inputstate" class="form-label">State</label>
-                                        <select id="inputstate" class="form-select">
-                                            <option selected>Scegli...</option>
-                                            <option>Brasile</option>
-                                            <option>Francia</option>
-                                            <option>Italia</option>
-                                            <option>Svizzera</option>
-                                         </select>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <label for="inputzip" class="form-label">CAP</label>
-                                        <input type="text" class="form-control" id="inputzip">
-                                    </div>
-                                    <div>
-                                        <label for="formFile" class="form-label">Foto</label>
-                                        <input class="form-control" type="file" id="formFile">
-                                    </div>
-                                    <div class="col-12">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                                        <label class="form-check-label" for="gridCheck">
-                                            Seleziona per proseguire
-                                        </label>
-                                    </div>
-
-                                    </div>
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-primary">Sign in</button>
-                                        <input class="btn btn-warning" type="reset" value="Svuota">
-                                    </div>
-                                </form>
-                              </div>
+                                        <div class="col-md-6">
+                                            <label for="inputsurname" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="inputsurname">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputemail" class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text">@</span>
+                                                <input type="email" class="form-control" id="inputemail">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputpassword" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputpassword">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputaddress" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="inputaddress">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputcity" class="form-label">Citta</label>
+                                            <input type="text" class="form-control" id="inputcity">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="inputstate" class="form-label">State</label>
+                                            <select id="inputstate" class="form-select">
+                                                <option selected>Scegli...</option>
+                                                <option>Brasile</option>
+                                                <option>Francia</option>
+                                                <option>Italia</option>
+                                                <option>Svizzera</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <label for="inputzip" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="inputzip">
+                                        </div>
+                                        <div>
+                                            <label for="formFile" class="form-label">Foto</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                    Seleziona per proseguire
+                                                </label>
+                                            </div>    
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">Sign in</button>
+                                            <input class="btn btn-warning" type="reset" value="Svuota">
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
